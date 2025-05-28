@@ -1,15 +1,10 @@
 import { defineConfig } from 'vite'
-
-/** @type {import('tailwindcss').Config} */
+import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react';
+
 export default defineConfig({
-  content: [
-    './index.html',
-    './src/**/*.{js,jsx}', // Include all your React JS files
+  plugins: [
+    react(),
+    tailwindcss(),
   ],
-  theme: {
-    extend: {},
-  },
-  
-  plugins: [react()],
-});
+})

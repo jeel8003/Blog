@@ -1,13 +1,7 @@
-// src/components/index.js
-import Header from './Header/Header.jsx';
-import Footer from 'd:/Blog/Blog app/src/components/Footer/footer.jsx';
-
-// export { Header, Footer };
-
 
 import Select from "./Select";
-// import Header from "./Header/Header";
-// import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 import Container from "./container/Container";
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";

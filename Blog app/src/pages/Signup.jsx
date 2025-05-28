@@ -1,5 +1,5 @@
 import React from 'react'
-import { Signup as SignupComponent } from '../components'
+import SignupComponent from '../components/Signup' // Change from named import to default import
 
 function Signup() {
   return (
